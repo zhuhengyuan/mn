@@ -2,7 +2,7 @@
 <manifest>
   <remote name="origin" fetch="https://github.com"/>
   <default remote="origin" sync-j="4"/>
-  <project name="zhuhengyuan/ssss.git" remote="https://github.com/zhuhengyuan/ssss.git" path="path/to/repo1" revision="branch3"/>
-  <project name="zhuhengyuan/zzzz.git" remote="https://github.com/zhuhengyuan/zzzz.git" path="path/to/repo2" revision="main"/>
+  <project name="zhuhengyuan/ssss.git" path="path/to/repo1" revision="branch3"/>
+  <project name="zhuhengyuan/zzzz.git" path="path/to/repo2" revision="main"/>
   <!-- 添加更多的项目 -->
 </manifest>
