@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="https://github.com"/>
-  <default remote="origin" sync-j="4"/>
-  <project name="zhuhengyuan/ssss.git" path="path/to/repo1" revision="branch3"/>
-  <project name="zhuhengyuan/zzzz.git" path="path/to/repo2" revision="main"/>
+  <default sync-j="4"/>
+  <project name="zhuhengyuan/ssss.git" path="repo1" revision="branch3" remote="origin"/>
+  <project name="zhuhengyuan/zzzz.git" path="repo2" revision="main"    remote="origin"/>
   <!-- 添加更多的项目 -->
 </manifest>
